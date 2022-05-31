@@ -12,7 +12,6 @@ class LoadScraperItem(scrapy.Item):
     name = scrapy.Field()
     value = scrapy.Field()
 
-
 class CompoundItem(scrapy.Item):
     date = scrapy.Field()
     value = scrapy.Field()
